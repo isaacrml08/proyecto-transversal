@@ -41,22 +41,32 @@ namespace Proyecto
 			this.txtNumeroPersonas = new System.Windows.Forms.TextBox();
 			this.lblResultado = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.textBox4 = new System.Windows.Forms.TextBox();
-			this.textBox5 = new System.Windows.Forms.TextBox();
-			this.textBox6 = new System.Windows.Forms.TextBox();
-			this.textBox7 = new System.Windows.Forms.TextBox();
-			this.textBox8 = new System.Windows.Forms.TextBox();
+			this.txtAserrin = new System.Windows.Forms.TextBox();
+			this.txtPintura = new System.Windows.Forms.TextBox();
+			this.txtFrutosSecos = new System.Windows.Forms.TextBox();
+			this.txtFlores = new System.Windows.Forms.TextBox();
+			this.txtAlimentos = new System.Windows.Forms.TextBox();
+			this.txtAgua = new System.Windows.Forms.TextBox();
+			this.txtTiempoDiseno = new System.Windows.Forms.TextBox();
+			this.txtManoObra = new System.Windows.Forms.TextBox();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.label9 = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// btnCalcular
 			// 
 			this.btnCalcular.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnCalcular.Location = new System.Drawing.Point(119, 345);
+			this.btnCalcular.Location = new System.Drawing.Point(108, 423);
+			this.btnCalcular.Margin = new System.Windows.Forms.Padding(4);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(129, 34);
+			this.btnCalcular.Size = new System.Drawing.Size(172, 42);
 			this.btnCalcular.TabIndex = 0;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = true;
@@ -64,26 +74,29 @@ namespace Proyecto
 			// 
 			// txtArea
 			// 
-			this.txtArea.Location = new System.Drawing.Point(119, 38);
+			this.txtArea.Location = new System.Drawing.Point(197, 47);
+			this.txtArea.Margin = new System.Windows.Forms.Padding(4);
 			this.txtArea.Multiline = true;
 			this.txtArea.Name = "txtArea";
-			this.txtArea.Size = new System.Drawing.Size(129, 20);
+			this.txtArea.Size = new System.Drawing.Size(171, 27);
 			this.txtArea.TabIndex = 1;
 			// 
 			// txtNumeroPersonas
 			// 
-			this.txtNumeroPersonas.Location = new System.Drawing.Point(119, 61);
+			this.txtNumeroPersonas.Location = new System.Drawing.Point(197, 82);
+			this.txtNumeroPersonas.Margin = new System.Windows.Forms.Padding(4);
 			this.txtNumeroPersonas.Multiline = true;
 			this.txtNumeroPersonas.Name = "txtNumeroPersonas";
-			this.txtNumeroPersonas.Size = new System.Drawing.Size(129, 21);
+			this.txtNumeroPersonas.Size = new System.Drawing.Size(171, 25);
 			this.txtNumeroPersonas.TabIndex = 2;
 			// 
 			// lblResultado
 			// 
 			this.lblResultado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblResultado.Location = new System.Drawing.Point(58, 395);
+			this.lblResultado.Location = new System.Drawing.Point(32, 489);
+			this.lblResultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(240, 41);
+			this.lblResultado.Size = new System.Drawing.Size(320, 50);
 			this.lblResultado.TabIndex = 3;
 			this.lblResultado.Text = "Costo total: $";
 			this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -91,107 +104,225 @@ namespace Proyecto
 			// label1
 			// 
 			this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(13, 35);
+			this.label1.Location = new System.Drawing.Point(18, 47);
+			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(161, 24);
 			this.label1.TabIndex = 4;
-			this.label1.Text = "Area:";
+			this.label1.Text = "Area en m2:";
 			// 
-			// textBox1
+			// txtAserrin
 			// 
-			this.textBox1.Location = new System.Drawing.Point(119, 107);
-			this.textBox1.Multiline = true;
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(129, 21);
-			this.textBox1.TabIndex = 5;
+			this.txtAserrin.Location = new System.Drawing.Point(197, 131);
+			this.txtAserrin.Margin = new System.Windows.Forms.Padding(4);
+			this.txtAserrin.Multiline = true;
+			this.txtAserrin.Name = "txtAserrin";
+			this.txtAserrin.Size = new System.Drawing.Size(171, 25);
+			this.txtAserrin.TabIndex = 5;
 			// 
-			// textBox2
+			// txtPintura
 			// 
-			this.textBox2.Location = new System.Drawing.Point(119, 134);
-			this.textBox2.Multiline = true;
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(129, 21);
-			this.textBox2.TabIndex = 6;
+			this.txtPintura.Location = new System.Drawing.Point(197, 164);
+			this.txtPintura.Margin = new System.Windows.Forms.Padding(4);
+			this.txtPintura.Multiline = true;
+			this.txtPintura.Name = "txtPintura";
+			this.txtPintura.Size = new System.Drawing.Size(171, 25);
+			this.txtPintura.TabIndex = 6;
 			// 
-			// textBox3
+			// txtFrutosSecos
 			// 
-			this.textBox3.Location = new System.Drawing.Point(119, 161);
-			this.textBox3.Multiline = true;
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(129, 21);
-			this.textBox3.TabIndex = 7;
+			this.txtFrutosSecos.Location = new System.Drawing.Point(197, 197);
+			this.txtFrutosSecos.Margin = new System.Windows.Forms.Padding(4);
+			this.txtFrutosSecos.Multiline = true;
+			this.txtFrutosSecos.Name = "txtFrutosSecos";
+			this.txtFrutosSecos.Size = new System.Drawing.Size(171, 25);
+			this.txtFrutosSecos.TabIndex = 7;
 			// 
-			// textBox4
+			// txtFlores
 			// 
-			this.textBox4.Location = new System.Drawing.Point(119, 188);
-			this.textBox4.Multiline = true;
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(129, 21);
-			this.textBox4.TabIndex = 8;
+			this.txtFlores.Location = new System.Drawing.Point(197, 231);
+			this.txtFlores.Margin = new System.Windows.Forms.Padding(4);
+			this.txtFlores.Multiline = true;
+			this.txtFlores.Name = "txtFlores";
+			this.txtFlores.Size = new System.Drawing.Size(171, 25);
+			this.txtFlores.TabIndex = 8;
 			// 
-			// textBox5
+			// txtAlimentos
 			// 
-			this.textBox5.Location = new System.Drawing.Point(119, 215);
-			this.textBox5.Multiline = true;
-			this.textBox5.Name = "textBox5";
-			this.textBox5.Size = new System.Drawing.Size(129, 21);
-			this.textBox5.TabIndex = 9;
+			this.txtAlimentos.Location = new System.Drawing.Point(197, 266);
+			this.txtAlimentos.Margin = new System.Windows.Forms.Padding(4);
+			this.txtAlimentos.Multiline = true;
+			this.txtAlimentos.Name = "txtAlimentos";
+			this.txtAlimentos.Size = new System.Drawing.Size(171, 25);
+			this.txtAlimentos.TabIndex = 9;
 			// 
-			// textBox6
+			// txtAgua
 			// 
-			this.textBox6.Location = new System.Drawing.Point(119, 242);
-			this.textBox6.Multiline = true;
-			this.textBox6.Name = "textBox6";
-			this.textBox6.Size = new System.Drawing.Size(129, 21);
-			this.textBox6.TabIndex = 10;
+			this.txtAgua.Location = new System.Drawing.Point(197, 299);
+			this.txtAgua.Margin = new System.Windows.Forms.Padding(4);
+			this.txtAgua.Multiline = true;
+			this.txtAgua.Name = "txtAgua";
+			this.txtAgua.Size = new System.Drawing.Size(171, 25);
+			this.txtAgua.TabIndex = 10;
 			// 
-			// textBox7
+			// txtTiempoDiseno
 			// 
-			this.textBox7.Location = new System.Drawing.Point(119, 269);
-			this.textBox7.Multiline = true;
-			this.textBox7.Name = "textBox7";
-			this.textBox7.Size = new System.Drawing.Size(129, 21);
-			this.textBox7.TabIndex = 11;
+			this.txtTiempoDiseno.Location = new System.Drawing.Point(197, 332);
+			this.txtTiempoDiseno.Margin = new System.Windows.Forms.Padding(4);
+			this.txtTiempoDiseno.Multiline = true;
+			this.txtTiempoDiseno.Name = "txtTiempoDiseno";
+			this.txtTiempoDiseno.Size = new System.Drawing.Size(171, 25);
+			this.txtTiempoDiseno.TabIndex = 11;
 			// 
-			// textBox8
+			// txtManoObra
 			// 
-			this.textBox8.Location = new System.Drawing.Point(119, 296);
-			this.textBox8.Multiline = true;
-			this.textBox8.Name = "textBox8";
-			this.textBox8.Size = new System.Drawing.Size(129, 21);
-			this.textBox8.TabIndex = 12;
+			this.txtManoObra.Location = new System.Drawing.Point(197, 365);
+			this.txtManoObra.Margin = new System.Windows.Forms.Padding(4);
+			this.txtManoObra.Multiline = true;
+			this.txtManoObra.Name = "txtManoObra";
+			this.txtManoObra.Size = new System.Drawing.Size(171, 25);
+			this.txtManoObra.TabIndex = 12;
+			// 
+			// label2
+			// 
+			this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(18, 76);
+			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(133, 24);
+			this.label2.TabIndex = 13;
+			this.label2.Text = "Personas:";
+			// 
+			// label3
+			// 
+			this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(18, 133);
+			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(161, 24);
+			this.label3.TabIndex = 14;
+			this.label3.Text = "KG de Aserrin:";
+			// 
+			// label4
+			// 
+			this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Location = new System.Drawing.Point(18, 166);
+			this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(133, 24);
+			this.label4.TabIndex = 15;
+			this.label4.Text = "Pintura:";
+			// 
+			// label5
+			// 
+			this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.Location = new System.Drawing.Point(18, 198);
+			this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(152, 24);
+			this.label5.TabIndex = 16;
+			this.label5.Text = "Frutos Secos:";
+			// 
+			// label6
+			// 
+			this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.Location = new System.Drawing.Point(18, 232);
+			this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(133, 24);
+			this.label6.TabIndex = 17;
+			this.label6.Text = "Flores:";
+			// 
+			// label7
+			// 
+			this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label7.Location = new System.Drawing.Point(18, 265);
+			this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(133, 24);
+			this.label7.TabIndex = 18;
+			this.label7.Text = "Alimentos:";
+			// 
+			// label8
+			// 
+			this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label8.Location = new System.Drawing.Point(18, 299);
+			this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(171, 24);
+			this.label8.TabIndex = 19;
+			this.label8.Text = "Litro de agua:";
+			// 
+			// label9
+			// 
+			this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label9.Location = new System.Drawing.Point(18, 332);
+			this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(178, 24);
+			this.label9.TabIndex = 20;
+			this.label9.Text = "Hora de Diseño:";
+			// 
+			// label10
+			// 
+			this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label10.Location = new System.Drawing.Point(18, 365);
+			this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(161, 24);
+			this.label10.TabIndex = 21;
+			this.label10.Text = "Mano de Obra:";
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(375, 445);
-			this.Controls.Add(this.textBox8);
-			this.Controls.Add(this.textBox7);
-			this.Controls.Add(this.textBox6);
-			this.Controls.Add(this.textBox5);
-			this.Controls.Add(this.textBox4);
-			this.Controls.Add(this.textBox3);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.ClientSize = new System.Drawing.Size(406, 548);
+			this.Controls.Add(this.label10);
+			this.Controls.Add(this.label9);
+			this.Controls.Add(this.label8);
+			this.Controls.Add(this.label7);
+			this.Controls.Add(this.label6);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.label4);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.txtManoObra);
+			this.Controls.Add(this.txtTiempoDiseno);
+			this.Controls.Add(this.txtAgua);
+			this.Controls.Add(this.txtAlimentos);
+			this.Controls.Add(this.txtFlores);
+			this.Controls.Add(this.txtFrutosSecos);
+			this.Controls.Add(this.txtPintura);
+			this.Controls.Add(this.txtAserrin);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.lblResultado);
 			this.Controls.Add(this.txtNumeroPersonas);
 			this.Controls.Add(this.txtArea);
 			this.Controls.Add(this.btnCalcular);
+			this.Margin = new System.Windows.Forms.Padding(4);
 			this.Name = "MainForm";
 			this.Text = "Proyecto";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
-		private System.Windows.Forms.TextBox textBox8;
-		private System.Windows.Forms.TextBox textBox7;
-		private System.Windows.Forms.TextBox textBox6;
-		private System.Windows.Forms.TextBox textBox5;
-		private System.Windows.Forms.TextBox textBox4;
-		private System.Windows.Forms.TextBox textBox3;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.TextBox txtManoObra;
+		private System.Windows.Forms.TextBox txtTiempoDiseno;
+		private System.Windows.Forms.TextBox txtAgua;
+		private System.Windows.Forms.TextBox txtAlimentos;
+		private System.Windows.Forms.TextBox txtFlores;
+		private System.Windows.Forms.TextBox txtFrutosSecos;
+		private System.Windows.Forms.TextBox txtPintura;
+		private System.Windows.Forms.TextBox txtAserrin;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label lblResultado;
 		private System.Windows.Forms.TextBox txtNumeroPersonas;

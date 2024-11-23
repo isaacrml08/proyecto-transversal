@@ -30,15 +30,6 @@ namespace Proyecto
 			//
 		}
 		
-		private double costoAserrin;
-        private double costoPintura;
-        private double costoFrutosSecos;
-        private double costoFlores;
-        private double costoAgua;
-        private double costoAlimentos;
-        private double costoTiempoDiseno;
-        private double costoManoObra;
-
         void BtnCalcularClick(object sender, EventArgs e)
 		{
             // Variables de entrada obtenidas desde el formulario
@@ -54,6 +45,15 @@ namespace Proyecto
 		
 		private double CalcularCostoTotal(double area, int numeroPersonas)
         {
+			// Incializamos variables
+			double costoAserrin = Convert.ToDouble(txtAserrin.Text);
+        	double costoPintura = Convert.ToDouble(txtPintura.Text);
+        	double costoFrutosSecos = Convert.ToDouble(txtFrutosSecos.Text);
+        	double costoFlores = Convert.ToDouble(txtFlores.Text);
+        	double costoAgua = Convert.ToDouble(txtAgua.Text);
+        	double costoAlimentos = Convert.ToDouble(txtAlimentos.Text);
+        	double costoTiempoDiseno = Convert.ToDouble(txtTiempoDiseno.Text);
+        	double costoManoObra = Convert.ToDouble(txtManoObra.Text);
             // Cálculo del costo total considerando todos los elementos
             double total = (area * costoAserrin) + (area * costoPintura) + 
                            (area * costoFrutosSecos) + (area * costoFlores) +
